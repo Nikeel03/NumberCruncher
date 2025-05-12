@@ -1,6 +1,6 @@
 # Number Cruncher: Online Multithreaded Math Quiz Game
 
-Number Cruncher is a command-line based client-server multiplayer math quiz game written in Python. Players connect to a server, can register/login, create or join game sessions, and then compete in rounds by answering simple math-related questions as fast as possible. The game utilizes multithreading to handle multiple clients concurrently.
+Number Cruncher is a command-line based client-server multiplayer math quiz game written in Python. Players connect to a server, can register/login, create or join game sessions and then compete in rounds by answering simple math-related questions as fast as possible. The game utilizes multithreading to handle multiple clients concurrently.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ Number Cruncher is a command-line based client-server multiplayer math quiz game
     ```bash
     pip install pytest
     ```
-All commands below should be run from the **root directory** of the project (the directory containing `src/`, `tests/`, and this `README.md`).
+All commands below should be run from the **root directory** of the project (the directory containing `src/`, `tests/` and this `README.md`).
 
 ## How to Run
 
@@ -24,7 +24,7 @@ The server needs to be running before any clients can connect.
     python src/Server.py
     ```
 3.  The server will start listening for client connections. By default, it listens on `0.0.0.0:4242`.
-    *   Log messages will appear in the console and be saved to `server.log` (in the directory where `Server.py` is run, i.e., `src/`).
+    *   Log messages will appear in the console and be saved to `server.log` (in the directory where `Server.py` is run, i.e. `src/`).
     *   User data will be saved in `user_data.json` (in `src/`).
 
 ### 2. Start the Client(s)
@@ -92,8 +92,3 @@ If you have `pytest` installed and your tests are in `tests/Test.py`:
     ```
     The `-s` flag is optional but useful as it shows output (like print statements and log messages) directly to the console during the test run.
 3.  This will execute the tests defined in `Test.py`. Test-specific files like `core_tests_v4_db.json` might be created and deleted in the `tests/` directory during the test run.
-
-## Important Notes
-
-*   Running the scripts from the root directory as specified (`python src/Server.py` and `python src/Client.py`) ensures that generated files like logs and the user database are created within the `src/` directory. If you run them from within `src/` directly (e.g., `cd src; python Server.py`), these files will appear in `src/` as well. The key is consistency.
-*   The test setup script (`tests/Test.py` in your example) modifies `sys.path` to include the `src` directory. This is important for the tests to find the `Server` and `Client` modules.
