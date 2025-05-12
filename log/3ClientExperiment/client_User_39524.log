@@ -1,0 +1,47 @@
+05:19:28.052 - INFO - __main__ [MainThread] - Client 'User' starting. Host: 127.0.0.1:4242, PING delay: 0ms, ANS delay: 0ms. Log Level: 20
+05:19:28.053 - INFO - __main__.User [MainThread] - Instance 'User' initialized for 127.0.0.1:4242
+05:19:28.053 - INFO - __main__.User [MainThread] - Standard CLI Client starting. Type 'help' for commands.
+05:20:01.065 - INFO - __main__.User [MainThread] - CLI Command: connect 127.0.0.1:9191
+05:20:01.065 - INFO - __main__.User [MainThread] - Attempting to connect to 127.0.0.1:9191...
+05:20:01.071 - INFO - __main__.User [MainThread] - Successfully connected to server.
+05:20:29.325 - INFO - __main__.User [MainThread] - CLI Command: login nik nikeel
+05:20:34.276 - INFO - __main__.User [User-ReceiveThread] - Login successful as nik.
+05:20:34.704 - INFO - __main__.User [User-ReceiveThread] - Received SESSION_LIST with 0 sessions.
+05:20:35.739 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 447.17ms. Sending UPDATE_RTT.
+05:20:45.745 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 443.23ms. Sending UPDATE_RTT.
+05:20:55.749 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 434.23ms. Sending UPDATE_RTT.
+05:21:05.744 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 420.22ms. Sending UPDATE_RTT.
+05:21:15.104 - INFO - __main__.User [MainThread] - CLI Command: create
+05:21:15.558 - INFO - __main__.User [User-ReceiveThread] - Session 69c5f017-ae1f-4bca-8639-52d907cdf9f9 created. I am host.
+05:21:15.763 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 435.27ms. Sending UPDATE_RTT.
+05:21:25.770 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 429.49ms. Sending UPDATE_RTT.
+05:21:27.987 - INFO - __main__.User [User-ReceiveThread] - Processed lobby update for current session. Host: True, Players: 2
+05:21:35.803 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 446.60ms. Sending UPDATE_RTT.
+05:21:45.818 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 456.22ms. Sending UPDATE_RTT.
+05:21:52.472 - INFO - __main__.User [User-ReceiveThread] - Processed lobby update for current session. Host: True, Players: 3
+05:21:55.808 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 434.73ms. Sending UPDATE_RTT.
+05:21:59.701 - INFO - __main__.User [MainThread] - CLI Command: startgame
+05:22:00.120 - INFO - __main__.User [User-ReceiveThread] - Game STARTING in session 69c5f017-ae1f-4bca-8639-52d907cdf9f9.
+05:22:00.126 - INFO - __main__.User [User-ReceiveThread] - Processed lobby update for current session. Host: True, Players: 3
+05:22:05.829 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 446.51ms. Sending UPDATE_RTT.
+05:22:10.950 - INFO - __main__.User [MainThread] - CLI Command: = 5
+05:22:14.696 - INFO - __main__.User [User-ReceiveThread] - ROUND_RESULT | Winner=niks | CorrectAns=5 | AllAns={'niks': {'answer': '5', 'time': '5.712s', 'correct': True}, 'nik': {'answer': '5', 'time': '8.554s', 'correct': True}, 'nikeel': {'answer': '5', 'time': '11.809s', 'correct': True}} | Scores={'nik': 0, 'nikeel': 0, 'niks': 1}
+05:22:15.824 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 436.06ms. Sending UPDATE_RTT.
+05:22:25.817 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 418.94ms. Sending UPDATE_RTT.
+05:22:31.906 - INFO - __main__.User [MainThread] - CLI Command: = 5
+05:22:34.964 - INFO - __main__.User [User-ReceiveThread] - ROUND_RESULT | Winner=nikeel | CorrectAns=5 | AllAns={'nikeel': {'answer': '5', 'time': '9.886s', 'correct': True}, 'nik': {'answer': '5', 'time': '12.426s', 'correct': True}, 'niks': {'answer': '6', 'time': '15.050s', 'correct': False}} | Scores={'nik': 0, 'nikeel': 1, 'niks': 1}
+05:22:35.850 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 446.36ms. Sending UPDATE_RTT.
+05:22:42.585 - INFO - __main__.User [MainThread] - CLI Command: = 150
+05:22:45.848 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 428.05ms. Sending UPDATE_RTT.
+05:22:49.789 - INFO - __main__.User [User-ReceiveThread] - ROUND_RESULT | Winner=nik | CorrectAns=150 | AllAns={'nik': {'answer': '150', 'time': '2.824s', 'correct': True}, 'niks': {'answer': '150', 'time': '6.302s', 'correct': True}, 'nikeel': {'answer': '150', 'time': '9.588s', 'correct': True}} | Scores={'nik': 1, 'nikeel': 1, 'niks': 1}
+05:22:54.809 - INFO - __main__.User [User-ReceiveThread] - GAME_OVER | Message: All questions done! | Final Scores: {'nik': 1, 'nikeel': 1, 'niks': 1}
+05:22:54.812 - INFO - __main__.User [User-ReceiveThread] - LOBBY_UPDATE confirmed entry to session 69c5f017.
+05:22:54.812 - INFO - __main__.User [User-ReceiveThread] - Processed lobby update for current session. Host: True, Players: 3
+05:22:55.746 - INFO - __main__.User [User-ReceiveThread] - Received SESSION_LIST with 1 sessions.
+05:22:55.868 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 435.66ms. Sending UPDATE_RTT.
+05:22:57.274 - INFO - __main__.User [User-ReceiveThread] - Processed lobby update for current session. Host: True, Players: 2
+05:22:58.185 - INFO - __main__.User [MainThread] - Ctrl-C on input, treating as exit.
+05:22:58.185 - INFO - __main__.User [MainThread] - CLI Command: exit
+05:22:58.185 - INFO - __main__.User [MainThread] - Disconnecting (User exit command)... Session: 69c5f017
+05:22:58.185 - INFO - __main__.User [MainThread] - Disconnected. Reason: User exit command.
+05:22:58.186 - INFO - __main__.User [MainThread] - User CLI Exited.

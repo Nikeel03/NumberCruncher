@@ -1,0 +1,39 @@
+03:13:09.313 - INFO - __main__ [MainThread] - Client 'User' starting. Host: 127.0.0.1:4242, PING delay: 0ms, ANS delay: 0ms. Log Level: 20
+03:13:09.314 - INFO - __main__.User [MainThread] - Instance 'User' initialized for 127.0.0.1:4242
+03:13:09.314 - INFO - __main__.User [MainThread] - Standard CLI Client starting. Type 'help' for commands.
+03:13:21.832 - INFO - __main__.User [MainThread] - CLI Command: connect 127.0.0.1:9191
+03:13:21.833 - INFO - __main__.User [MainThread] - Attempting to connect to 127.0.0.1:9191...
+03:13:21.840 - INFO - __main__.User [MainThread] - Successfully connected to server.
+03:13:28.221 - INFO - __main__.User [MainThread] - CLI Command: login nik nikeel
+03:13:28.812 - INFO - __main__.User [User-ReceiveThread] - Login successful as nik.
+03:13:29.205 - INFO - __main__.User [User-ReceiveThread] - Received SESSION_LIST with 0 sessions.
+03:13:30.282 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 454.16ms. Sending UPDATE_RTT.
+03:13:36.251 - INFO - __main__.User [MainThread] - CLI Command: create
+03:13:36.684 - INFO - __main__.User [User-ReceiveThread] - Session 84386133-db4c-4673-909b-3ad49eddbcaf created. I am host.
+03:13:40.380 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 536.59ms. Sending UPDATE_RTT.
+03:13:49.968 - INFO - __main__.User [User-ReceiveThread] - Processed lobby update for current session. Host: True, Players: 2
+03:13:50.263 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 417.65ms. Sending UPDATE_RTT.
+03:13:57.095 - INFO - __main__.User [MainThread] - CLI Command: startgame
+03:13:57.551 - INFO - __main__.User [User-ReceiveThread] - Game STARTING in session 84386133-db4c-4673-909b-3ad49eddbcaf.
+03:13:57.552 - INFO - __main__.User [User-ReceiveThread] - Processed lobby update for current session. Host: True, Players: 2
+03:14:00.300 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 439.02ms. Sending UPDATE_RTT.
+03:14:03.681 - INFO - __main__.User [MainThread] - CLI Command: = 5
+03:14:06.191 - INFO - __main__.User [User-ReceiveThread] - ROUND_RESULT | Winner=nik | CorrectAns=5 | AllAns={'nik': {'answer': '5', 'time': '3.873s', 'correct': True}, 'nikeel': {'answer': '5', 'time': '5.939s', 'correct': True}} | Scores={'nik': 1, 'nikeel': 0}
+03:14:10.421 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 543.51ms. Sending UPDATE_RTT.
+03:14:18.186 - INFO - __main__.User [MainThread] - CLI Command: = 150
+03:14:18.659 - INFO - __main__.User [User-ReceiveThread] - ROUND_RESULT | Winner=nikeel | CorrectAns=150 | AllAns={'nikeel': {'answer': '150', 'time': '4.691s', 'correct': True}, 'nik': {'answer': '150', 'time': '7.187s', 'correct': True}} | Scores={'nik': 1, 'nikeel': 1}
+03:14:20.437 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 553.10ms. Sending UPDATE_RTT.
+03:14:25.581 - INFO - __main__.User [MainThread] - CLI Command: = 5
+03:14:28.410 - INFO - __main__.User [User-ReceiveThread] - ROUND_RESULT | Winner=nik | CorrectAns=5 | AllAns={'nik': {'answer': '5', 'time': '2.068s', 'correct': True}, 'nikeel': {'answer': '5', 'time': '4.463s', 'correct': True}} | Scores={'nik': 2, 'nikeel': 1}
+03:14:30.321 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 430.45ms. Sending UPDATE_RTT.
+03:14:33.412 - INFO - __main__.User [User-ReceiveThread] - GAME_OVER | Message: All questions done! | Final Scores: {'nik': 2, 'nikeel': 1}
+03:14:33.414 - INFO - __main__.User [User-ReceiveThread] - LOBBY_UPDATE confirmed entry to session 84386133.
+03:14:33.414 - INFO - __main__.User [User-ReceiveThread] - Processed lobby update for current session. Host: True, Players: 2
+03:14:34.378 - INFO - __main__.User [User-ReceiveThread] - Received SESSION_LIST with 1 sessions.
+03:14:38.463 - INFO - __main__.User [User-ReceiveThread] - Processed lobby update for current session. Host: True, Players: 1
+03:14:40.348 - INFO - __main__.User [User-ReceiveThread] - PONG recv. RTT: 455.00ms. Sending UPDATE_RTT.
+03:14:41.709 - INFO - __main__.User [MainThread] - Ctrl-C on input, treating as exit.
+03:14:41.709 - INFO - __main__.User [MainThread] - CLI Command: exit
+03:14:41.709 - INFO - __main__.User [MainThread] - Disconnecting (User exit command)... Session: 84386133
+03:14:41.710 - INFO - __main__.User [MainThread] - Disconnected. Reason: User exit command.
+03:14:41.711 - INFO - __main__.User [MainThread] - User CLI Exited.

@@ -1,0 +1,323 @@
+05:19:22.744 - INFO - server - [MainThread] - Server starting up on 0.0.0.0:4242...
+05:19:22.745 - INFO - server.UserDataStore - [MainThread] - User data loaded from user_data.json. 2 users found.
+05:19:22.745 - DEBUG - server.UserDataStore - [MainThread] - UserDataStore initialized for file: user_data.json
+05:19:22.745 - INFO - server - [MainThread] - Server instance initialized for 0.0.0.0:4242.
+05:19:22.749 - INFO - server - [MainThread] - Listening on 0.0.0.0:4242
+05:19:22.749 - INFO - server - [MainThread] - Server accept loop started.
+05:19:43.496 - INFO - server - [MainThread] - Accepted connection from ('127.0.0.1', 55348), client_id: 127.0.0.1:55348
+05:19:43.500 - DEBUG - server - [ClientThread-127.0.0.1-55348] - Handler started for client 127.0.0.1:55348.
+05:20:07.534 - INFO - server - [MainThread] - Accepted connection from ('192.168.0.86', 55361), client_id: 192.168.0.86:55361
+05:20:07.535 - DEBUG - server - [ClientThread-192.168.0.86-55361] - Handler started for client 192.168.0.86:55361.
+05:20:19.678 - INFO - server - [MainThread] - Accepted connection from ('192.168.0.86', 55365), client_id: 192.168.0.86:55365
+05:20:19.679 - DEBUG - server - [ClientThread-192.168.0.86-55365] - Handler started for client 192.168.0.86:55365.
+05:20:21.599 - INFO - server - [MainThread] - Accepted connection from ('192.168.0.86', 55370), client_id: 192.168.0.86:55370
+05:20:21.601 - DEBUG - server - [ClientThread-192.168.0.86-55370] - Handler started for client 192.168.0.86:55370.
+05:20:21.601 - INFO - server - [MainThread] - Accepted connection from ('192.168.0.86', 55371), client_id: 192.168.0.86:55371
+05:20:21.602 - DEBUG - server - [ClientThread-192.168.0.86-55371] - Handler started for client 192.168.0.86:55371.
+05:20:23.642 - INFO - server - [ClientThread-127.0.0.1-55348] - <127.0.0.1:55348> CMD_RECV: LOGIN, Data: {'command': 'LOGIN', 'username': 'nikeel', 'password': 'nikeel'}
+05:20:23.719 - INFO - server.UserDataStore - [ClientThread-127.0.0.1-55348] - User 'nikeel' logged in.
+05:20:23.720 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=LOGIN_RESPONSE, Data={'command': 'LOGIN_RESPONSE', 'success': True, 'message': 'Login successful.', 'username': 'nikeel'}
+05:20:23.721 - INFO - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: LIST_SESSIONS, Data: {'command': 'LIST_SESSIONS'}
+05:20:23.721 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=SESSION_LIST, Data={'command': 'SESSION_LIST', 'sessions': []}
+05:20:24.723 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:20:24.724 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020024.7234674}
+05:20:24.725 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:20:33.491 - INFO - server - [MainThread] - Accepted connection from ('192.168.0.86', 55377), client_id: 192.168.0.86:55377
+05:20:33.492 - DEBUG - server - [ClientThread-192.168.0.86-55377] - Handler started for client 192.168.0.86:55377.
+05:20:33.987 - INFO - server - [ClientThread-192.168.0.86-55377] - <192.168.0.86:55377> CMD_RECV: LOGIN, Data: {'command': 'LOGIN', 'username': 'nik', 'password': 'nikeel'}
+05:20:34.063 - INFO - server.UserDataStore - [ClientThread-192.168.0.86-55377] - User 'nik' logged in.
+05:20:34.064 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=LOGIN_RESPONSE, Data={'command': 'LOGIN_RESPONSE', 'success': True, 'message': 'Login successful.', 'username': 'nik'}
+05:20:34.495 - INFO - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: LIST_SESSIONS, Data: {'command': 'LIST_SESSIONS'}
+05:20:34.496 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=SESSION_LIST, Data={'command': 'SESSION_LIST', 'sessions': []}
+05:20:34.740 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:20:34.741 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020034.7390878}
+05:20:34.744 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:20:35.504 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:20:35.505 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020035.2925622}
+05:20:35.950 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:20:44.749 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:20:44.750 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020044.749405}
+05:20:44.751 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:20:45.526 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:20:45.527 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020045.30218}
+05:20:45.970 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:20:54.764 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:20:54.765 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020054.7643712}
+05:20:54.766 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:20:55.526 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:20:55.527 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020055.3150709}
+05:20:55.977 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:00.669 - INFO - server - [ClientThread-192.168.0.86-55371] - <192.168.0.86:55371> CMD_RECV: REGISTER, Data: {'command': 'REGISTER', 'username': 'niks', 'password': 'nikeel'}
+05:21:00.748 - INFO - server.UserDataStore - [ClientThread-192.168.0.86-55371] - User data saved to user_data.json. Total users: 3.
+05:21:00.750 - INFO - server.UserDataStore - [ClientThread-192.168.0.86-55371] - User 'niks' registered.
+05:21:00.750 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to 192.168.0.86:55371: CMD=REGISTER_RESPONSE, Data={'command': 'REGISTER_RESPONSE', 'success': True, 'message': 'Registration successful.'}
+05:21:04.774 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:04.775 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020064.7737024}
+05:21:04.775 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:05.542 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:05.543 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020065.3238463}
+05:21:05.973 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:06.766 - INFO - server - [ClientThread-192.168.0.86-55371] - <192.168.0.86:55371> CMD_RECV: LOGIN, Data: {'command': 'LOGIN', 'username': 'niks', 'password': 'nikeel'}
+05:21:06.840 - INFO - server.UserDataStore - [ClientThread-192.168.0.86-55371] - User 'niks' logged in.
+05:21:06.841 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=LOGIN_RESPONSE, Data={'command': 'LOGIN_RESPONSE', 'success': True, 'message': 'Login successful.', 'username': 'niks'}
+05:21:07.305 - INFO - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: LIST_SESSIONS, Data: {'command': 'LIST_SESSIONS'}
+05:21:07.305 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=SESSION_LIST, Data={'command': 'SESSION_LIST', 'sessions': []}
+05:21:08.289 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:08.291 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020068.0755928}
+05:21:08.722 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:14.776 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:14.778 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020074.7763603}
+05:21:14.779 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:15.328 - INFO - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: CREATE_SESSION, Data: {'command': 'CREATE_SESSION'}
+05:21:15.330 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Created by nik (192.168.0.86:55377)
+05:21:15.331 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Player nik (192.168.0.86:55377) joined. Total players: 1.
+05:21:15.331 - DEBUG - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Broadcasting SESSION_LOBBY_UPDATE to 1 players.
+05:21:15.333 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=CREATE_SESSION_SUCCESS, Data={'command': 'CREATE_SESSION_SUCCESS', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'message
+05:21:15.545 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:15.546 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020075.327824}
+05:21:15.993 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:15.995 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 435.2724552154541ms
+05:21:18.302 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:18.303 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020078.0816162}
+05:21:18.749 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:20.250 - INFO - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: LIST_SESSIONS, Data: {'command': 'LIST_SESSIONS'}
+05:21:20.251 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=SESSION_LIST, Data={'command': 'SESSION_LIST', 'sessions': [{'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'hos
+05:21:24.789 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:24.790 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020084.7882056}
+05:21:24.791 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:25.553 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:25.554 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020085.3407488}
+05:21:25.988 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:25.989 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 429.4893741607666ms
+05:21:27.765 - INFO - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: JOIN_SESSION, Data: {'command': 'JOIN_SESSION', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9'}
+05:21:27.765 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Player nikeel (127.0.0.1:55348) joined. Total players: 2.
+05:21:27.765 - DEBUG - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Broadcasting SESSION_LOBBY_UPDATE to 2 players.
+05:21:27.766 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=JOIN_SESSION_SUCCESS, Data={'command': 'JOIN_SESSION_SUCCESS', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'message':
+05:21:28.304 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:28.305 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020088.094591}
+05:21:28.729 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:32.530 - INFO - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: JOIN_SESSION, Data: {'command': 'JOIN_SESSION', 'session_id': '69c5f017'}
+05:21:32.531 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=ERROR, Data={'command': 'ERROR', 'message': 'Session not found.'}
+05:21:34.793 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:34.794 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020094.792907}
+05:21:34.794 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:34.795 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Updated RTT for nikeel (127.0.0.1:55348): 1.363992691040039ms
+05:21:35.585 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:35.585 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020095.3567493}
+05:21:36.048 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:36.048 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 446.60401344299316ms
+05:21:38.321 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:38.322 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020098.1062891}
+05:21:38.792 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:44.797 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:44.798 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020104.7975318}
+05:21:44.799 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:44.800 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Updated RTT for nikeel (127.0.0.1:55348): 1.405954360961914ms
+05:21:44.944 - INFO - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: LIST_SESSIONS, Data: {'command': 'LIST_SESSIONS'}
+05:21:44.945 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=SESSION_LIST, Data={'command': 'SESSION_LIST', 'sessions': [{'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'hos
+05:21:45.584 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:45.585 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020105.3626754}
+05:21:46.031 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:46.032 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 456.21776580810547ms
+05:21:48.343 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:48.343 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020108.1194193}
+05:21:48.845 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:52.250 - INFO - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: JOIN_SESSION, Data: {'command': 'JOIN_SESSION', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9'}
+05:21:52.251 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Player niks (192.168.0.86:55371) joined. Total players: 3.
+05:21:52.252 - DEBUG - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Broadcasting SESSION_LOBBY_UPDATE to 3 players.
+05:21:52.253 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=JOIN_SESSION_SUCCESS, Data={'command': 'JOIN_SESSION_SUCCESS', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'message':
+05:21:54.804 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:54.806 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020114.803322}
+05:21:54.807 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:54.808 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Updated RTT for nikeel (127.0.0.1:55348): 2.9633045196533203ms
+05:21:55.588 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:55.588 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020115.372768}
+05:21:56.022 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:56.023 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 434.73339080810547ms
+05:21:58.345 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:21:58.346 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020118.1278553}
+05:21:58.785 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:21:58.786 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Updated RTT for niks (192.168.0.86:55371): 443.0074691772461ms
+05:21:59.913 - INFO - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: START_SESSION_GAME, Data: {'command': 'START_SESSION_GAME'}
+05:21:59.913 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Game starting sequence initiated by host nik.
+05:21:59.914 - DEBUG - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Broadcasting SESSION_GAME_STARTING to 3 players.
+05:21:59.915 - DEBUG - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Broadcasting SESSION_LOBBY_UPDATE to 3 players.
+05:22:02.430 - INFO - server.Session.69c5f017 - [Thread-1] - Attempting to start new round.
+05:22:02.430 - DEBUG - server.Session.69c5f017 - [Thread-1] - Clearing 1 pending round timers.
+05:22:02.431 - INFO - server.Session.69c5f017 - [Thread-1] - Max RTT: 443.0074691772461ms. Max 1-way sync latency: 221.50ms.
+05:22:02.432 - INFO - server.Session.69c5f017 - [Thread-1] - Server time.time() now: 1747020122.432. Target problem display UTC (problem_start_time): 1747020122.653
+05:22:02.433 - INFO - server.Session.69c5f017 - [Thread-1] - Scheduling problem for nik (192.168.0.86:55377) with dispatch_delay: 0.004s (Player RTT: 434.73339080810547ms). Target display UTC: 1747020122.653
+05:22:02.434 - INFO - server.Session.69c5f017 - [Thread-1] - Scheduling problem for nikeel (127.0.0.1:55348) with dispatch_delay: 0.220s (Player RTT: 2.9633045196533203ms). Target display UTC: 1747020122.653
+05:22:02.435 - INFO - server.Session.69c5f017 - [Thread-1] - Scheduling problem for niks (192.168.0.86:55371) with dispatch_delay: 0.000s (Player RTT: 443.0074691772461ms). Target display UTC: 1747020122.653
+05:22:02.436 - INFO - server.Session.69c5f017 - [Thread-1] - All problem dispatches scheduled for round 1.
+05:22:02.437 - DEBUG - server.Session.69c5f017 - [Thread-1] - Suppressing lobby update: question active.
+05:22:02.438 - INFO - server.Session.69c5f017 - [Thread-4] - SENDING_PROBLEM to niks (192.168.0.86:55371) | PerfCounter: 75616.7458 | WallClock: 1747020122.436 | TargetUTC: 1747020122.653
+05:22:02.439 - DEBUG - server - [Thread-4] - SENT to niks(192.168.0.86:55371): CMD=SESSION_PROBLEM, Data={'command': 'SESSION_PROBLEM', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'question': '  
+05:22:02.445 - INFO - server.Session.69c5f017 - [Thread-2] - SENDING_PROBLEM to nik (192.168.0.86:55377) | PerfCounter: 75616.7547 | WallClock: 1747020122.445 | TargetUTC: 1747020122.653
+05:22:02.445 - DEBUG - server - [Thread-2] - SENT to nik(192.168.0.86:55377): CMD=SESSION_PROBLEM, Data={'command': 'SESSION_PROBLEM', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'question': '  
+05:22:02.660 - INFO - server.Session.69c5f017 - [Thread-3] - SENDING_PROBLEM to nikeel (127.0.0.1:55348) | PerfCounter: 75616.9688 | WallClock: 1747020122.659 | TargetUTC: 1747020122.653
+05:22:02.660 - DEBUG - server - [Thread-3] - SENT to nikeel(127.0.0.1:55348): CMD=SESSION_PROBLEM, Data={'command': 'SESSION_PROBLEM', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'question': '  
+05:22:04.816 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:04.817 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020124.8162148}
+05:22:04.817 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:04.818 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Updated RTT for nikeel (127.0.0.1:55348): 1.0333061218261719ms
+05:22:05.606 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:05.607 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020125.3829422}
+05:22:06.050 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:06.051 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 446.5055465698242ms
+05:22:08.345 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:08.346 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020128.1376638}
+05:22:08.365 - INFO - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: SESSION_ANSWER, Data: {'command': 'SESSION_ANSWER', 'answer': '5'}
+05:22:08.365 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Player niks answered. Time taken (rel to target): 5.712s.
+05:22:08.784 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:08.784 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Updated RTT for niks (192.168.0.86:55371): 433.0594539642334ms
+05:22:11.206 - INFO - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: SESSION_ANSWER, Data: {'command': 'SESSION_ANSWER', 'answer': '5'}
+05:22:11.208 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Player nik answered. Time taken (rel to target): 8.554s.
+05:22:14.462 - INFO - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: SESSION_ANSWER, Data: {'command': 'SESSION_ANSWER', 'answer': '5'}
+05:22:14.462 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Player nikeel answered. Time taken (rel to target): 11.809s.
+05:22:14.462 - DEBUG - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Clearing 3 pending round timers.
+05:22:14.463 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Evaluating round (State: InProgress=True).
+05:22:14.463 - DEBUG - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Broadcasting SESSION_ROUND_RESULT to 3 players.
+05:22:14.464 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Round result sent. Winner: niks.
+05:22:14.822 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:14.822 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020134.8221133}
+05:22:14.824 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:14.824 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Updated RTT for nikeel (127.0.0.1:55348): 1.6369819641113281ms
+05:22:15.605 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:15.607 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020135.3879912}
+05:22:16.045 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:16.046 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 436.05685234069824ms
+05:22:18.365 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:18.366 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020138.1442509}
+05:22:18.801 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:18.801 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Updated RTT for niks (192.168.0.86:55371): 440.71030616760254ms
+05:22:19.474 - INFO - server.Session.69c5f017 - [Thread-5] - Attempting to start new round.
+05:22:19.475 - DEBUG - server.Session.69c5f017 - [Thread-5] - Clearing 1 pending round timers.
+05:22:19.475 - INFO - server.Session.69c5f017 - [Thread-5] - Max RTT: 440.71030616760254ms. Max 1-way sync latency: 220.36ms.
+05:22:19.475 - INFO - server.Session.69c5f017 - [Thread-5] - Server time.time() now: 1747020139.476. Target problem display UTC (problem_start_time): 1747020139.696
+05:22:19.476 - INFO - server.Session.69c5f017 - [Thread-5] - Scheduling problem for nik (192.168.0.86:55377) with dispatch_delay: 0.002s (Player RTT: 436.05685234069824ms). Target display UTC: 1747020139.696
+05:22:19.477 - INFO - server.Session.69c5f017 - [Thread-5] - Scheduling problem for nikeel (127.0.0.1:55348) with dispatch_delay: 0.220s (Player RTT: 1.6369819641113281ms). Target display UTC: 1747020139.696
+05:22:19.478 - INFO - server.Session.69c5f017 - [Thread-5] - Scheduling problem for niks (192.168.0.86:55371) with dispatch_delay: 0.000s (Player RTT: 440.71030616760254ms). Target display UTC: 1747020139.696
+05:22:19.479 - INFO - server.Session.69c5f017 - [Thread-5] - All problem dispatches scheduled for round 2.
+05:22:19.479 - DEBUG - server.Session.69c5f017 - [Thread-5] - Suppressing lobby update: question active.
+05:22:19.481 - INFO - server.Session.69c5f017 - [Thread-8] - SENDING_PROBLEM to niks (192.168.0.86:55371) | PerfCounter: 75633.7889 | WallClock: 1747020139.479 | TargetUTC: 1747020139.696
+05:22:19.482 - DEBUG - server - [Thread-8] - SENT to niks(192.168.0.86:55371): CMD=SESSION_PROBLEM, Data={'command': 'SESSION_PROBLEM', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'question': '  
+05:22:19.489 - INFO - server.Session.69c5f017 - [Thread-6] - SENDING_PROBLEM to nik (192.168.0.86:55377) | PerfCounter: 75633.7993 | WallClock: 1747020139.490 | TargetUTC: 1747020139.696
+05:22:19.490 - DEBUG - server - [Thread-6] - SENT to nik(192.168.0.86:55377): CMD=SESSION_PROBLEM, Data={'command': 'SESSION_PROBLEM', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'question': '  
+05:22:19.704 - INFO - server.Session.69c5f017 - [Thread-7] - SENDING_PROBLEM to nikeel (127.0.0.1:55348) | PerfCounter: 75634.0141 | WallClock: 1747020139.705 | TargetUTC: 1747020139.696
+05:22:19.705 - DEBUG - server - [Thread-7] - SENT to nikeel(127.0.0.1:55348): CMD=SESSION_PROBLEM, Data={'command': 'SESSION_PROBLEM', 'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'question': '  
+05:22:24.829 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:24.829 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020144.8286533}
+05:22:24.830 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:24.830 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Updated RTT for nikeel (127.0.0.1:55348): 1.5554428100585938ms
+05:22:25.607 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:25.608 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020145.3974872}
+05:22:26.025 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:26.028 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 418.9419746398926ms
+05:22:28.365 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:28.365 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020148.1488526}
+05:22:28.809 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:28.809 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Updated RTT for niks (192.168.0.86:55371): 436.31482124328613ms
+05:22:29.581 - INFO - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: SESSION_ANSWER, Data: {'command': 'SESSION_ANSWER', 'answer': '5'}
+05:22:29.581 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Player nikeel answered. Time taken (rel to target): 9.886s.
+05:22:32.120 - INFO - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: SESSION_ANSWER, Data: {'command': 'SESSION_ANSWER', 'answer': '5'}
+05:22:32.121 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Player nik answered. Time taken (rel to target): 12.426s.
+05:22:34.744 - INFO - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: SESSION_ANSWER, Data: {'command': 'SESSION_ANSWER', 'answer': '6'}
+05:22:34.745 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Player niks answered. Time taken (rel to target): 15.050s.
+05:22:34.746 - DEBUG - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Clearing 3 pending round timers.
+05:22:34.747 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Evaluating round (State: InProgress=True).
+05:22:34.747 - DEBUG - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Broadcasting SESSION_ROUND_RESULT to 3 players.
+05:22:34.748 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Round result sent. Winner: nikeel.
+05:22:34.839 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:34.840 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020154.8381026}
+05:22:34.841 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:34.841 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Updated RTT for nikeel (127.0.0.1:55348): 2.3505687713623047ms
+05:22:35.627 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:35.628 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020155.4038584}
+05:22:36.066 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:36.066 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 446.35653495788574ms
+05:22:38.394 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:38.395 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020158.157858}
+05:22:38.804 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:38.805 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Updated RTT for niks (192.168.0.86:55371): 439.00084495544434ms
+05:22:39.764 - INFO - server.Session.69c5f017 - [Thread-9] - Attempting to start new round.
+05:22:39.764 - DEBUG - server.Session.69c5f017 - [Thread-9] - Clearing 1 pending round timers.
+05:22:39.765 - INFO - server.Session.69c5f017 - [Thread-9] - Max RTT: 446.35653495788574ms. Max 1-way sync latency: 223.18ms.
+05:22:39.765 - INFO - server.Session.69c5f017 - [Thread-9] - Server time.time() now: 1747020159.766. Target problem display UTC (problem_start_time): 1747020159.989
+05:22:39.766 - INFO - server.Session.69c5f017 - [Thread-9] - Scheduling problem for nik (192.168.0.86:55377) with dispatch_delay: 0.000s (Player RTT: 446.35653495788574ms). Target display UTC: 1747020159.989
+05:22:39.768 - INFO - server.Session.69c5f017 - [Thread-9] - Scheduling problem for nikeel (127.0.0.1:55348) with dispatch_delay: 0.222s (Player RTT: 2.3505687713623047ms). Target display UTC: 1747020159.989
+05:22:39.769 - INFO - server.Session.69c5f017 - [Thread-9] - Scheduling problem for niks (192.168.0.86:55371) with dispatch_delay: 0.004s (Player RTT: 439.00084495544434ms). Target display UTC: 1747020159.989
+05:22:39.770 - INFO - server.Session.69c5f017 - [Thread-9] - All problem dispatches scheduled for round 3.
+05:22:39.771 - DEBUG - server.Session.69c5f017 - [Thread-9] - Suppressing lobby update: question active.
+05:22:39.772 - INFO - server.Session.69c5f017 - [Thread-10] - SENDING_PROBLEM to nik (192.168.0.86:55377) | PerfCounter: 75654.0775 | WallClock: 1747020159.768 | TargetUTC: 1747020159.989
+05:22:39.779 - INFO - server.Session.69c5f017 - [Thread-12] - SENDING_PROBLEM to niks (192.168.0.86:55371) | PerfCounter: 75654.0890 | WallClock: 1747020159.780 | TargetUTC: 1747020159.989
+05:22:40.007 - INFO - server.Session.69c5f017 - [Thread-11] - SENDING_PROBLEM to nikeel (127.0.0.1:55348) | PerfCounter: 75654.3170 | WallClock: 1747020160.008 | TargetUTC: 1747020159.989
+05:22:42.811 - INFO - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: SESSION_ANSWER, Data: {'command': 'SESSION_ANSWER', 'answer': '150'}
+05:22:42.812 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Player nik answered. Time taken (rel to target): 2.824s.
+05:22:44.855 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:44.856 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020164.8547544}
+05:22:44.857 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:44.857 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Updated RTT for nikeel (127.0.0.1:55348): 2.214193344116211ms
+05:22:45.625 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:45.626 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020165.4204464}
+05:22:46.065 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:46.066 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 428.0529022216797ms
+05:22:46.289 - INFO - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: SESSION_ANSWER, Data: {'command': 'SESSION_ANSWER', 'answer': '150'}
+05:22:46.290 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Player niks answered. Time taken (rel to target): 6.302s.
+05:22:48.392 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:48.393 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020168.1658652}
+05:22:48.895 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:48.896 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Updated RTT for niks (192.168.0.86:55371): 442.77286529541016ms
+05:22:49.575 - INFO - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: SESSION_ANSWER, Data: {'command': 'SESSION_ANSWER', 'answer': '150'}
+05:22:49.576 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Player nikeel answered. Time taken (rel to target): 9.588s.
+05:22:49.577 - DEBUG - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Clearing 3 pending round timers.
+05:22:49.577 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Evaluating round (State: InProgress=True).
+05:22:49.577 - DEBUG - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Broadcasting SESSION_ROUND_RESULT to 3 players.
+05:22:49.578 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Round result sent. Winner: nik.
+05:22:54.590 - INFO - server.Session.69c5f017 - [Thread-13] - Attempting to start new round.
+05:22:54.590 - DEBUG - server.Session.69c5f017 - [Thread-13] - Clearing 1 pending round timers.
+05:22:54.591 - INFO - server.Session.69c5f017 - [Thread-13] - All questions asked. Game Over.
+05:22:54.592 - DEBUG - server.Session.69c5f017 - [Thread-13] - Broadcasting SESSION_GAME_OVER to 3 players.
+05:22:54.592 - DEBUG - server.Session.69c5f017 - [Thread-13] - Broadcasting SESSION_LOBBY_UPDATE to 3 players.
+05:22:54.867 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:54.868 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020174.8668742}
+05:22:54.869 - DEBUG - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:54.870 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Updated RTT for nikeel (127.0.0.1:55348): 2.093791961669922ms
+05:22:55.097 - INFO - server - [ClientThread-127.0.0.1-55348] - <nikeel> CMD_RECV: LIST_SESSIONS, Data: {'command': 'LIST_SESSIONS'}
+05:22:55.098 - DEBUG - server - [ClientThread-127.0.0.1-55348] - SENT to nikeel(127.0.0.1:55348): CMD=SESSION_LIST, Data={'command': 'SESSION_LIST', 'sessions': [{'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'hos
+05:22:55.529 - INFO - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: LIST_SESSIONS, Data: {'command': 'LIST_SESSIONS'}
+05:22:55.529 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=SESSION_LIST, Data={'command': 'SESSION_LIST', 'sessions': [{'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'hos
+05:22:55.534 - INFO - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: LIST_SESSIONS, Data: {'command': 'LIST_SESSIONS'}
+05:22:55.535 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=SESSION_LIST, Data={'command': 'SESSION_LIST', 'sessions': [{'session_id': '69c5f017-ae1f-4bca-8639-52d907cdf9f9', 'hos
+05:22:55.650 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:55.652 - DEBUG - server - [ClientThread-192.168.0.86-55377] - SENT to nik(192.168.0.86:55377): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020175.432596}
+05:22:56.079 - DEBUG - server - [ClientThread-192.168.0.86-55377] - <nik> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:56.079 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Updated RTT for nik (192.168.0.86:55377): 435.6646537780762ms
+05:22:57.048 - INFO - server - [ClientThread-127.0.0.1-55348] - Client 127.0.0.1:55348 disconnected (empty data).
+05:22:57.049 - INFO - server - [ClientThread-127.0.0.1-55348] - Cleaning up client 127.0.0.1:55348...
+05:22:57.050 - INFO - server - [ClientThread-127.0.0.1-55348] - Removing nikeel(127.0.0.1:55348) from session 69c5f017-ae1f-4bca-8639-52d907cdf9f9
+05:22:57.050 - INFO - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Player nikeel (127.0.0.1:55348) left session.
+05:22:57.050 - DEBUG - server.Session.69c5f017 - [ClientThread-127.0.0.1-55348] - Broadcasting SESSION_LOBBY_UPDATE to 2 players.
+05:22:57.051 - INFO - server - [ClientThread-127.0.0.1-55348] - Client nikeel(127.0.0.1:55348) fully cleaned up.
+05:22:57.052 - DEBUG - server - [ClientThread-127.0.0.1-55348] - Handler terminated for client 127.0.0.1:55348.
+05:22:58.410 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: PING (RTT/Ping data not shown for brevity)
+05:22:58.411 - INFO - server - [ClientThread-192.168.0.86-55377] - Client 192.168.0.86:55377 disconnected (empty data).
+05:22:58.411 - DEBUG - server - [ClientThread-192.168.0.86-55371] - SENT to niks(192.168.0.86:55371): CMD=PONG, Data={'command': 'PONG', 'original_payload_timestamp': 1747020178.1779275}
+05:22:58.412 - INFO - server - [ClientThread-192.168.0.86-55377] - Cleaning up client 192.168.0.86:55377...
+05:22:58.414 - INFO - server - [ClientThread-192.168.0.86-55377] - Removing nik(192.168.0.86:55377) from session 69c5f017-ae1f-4bca-8639-52d907cdf9f9
+05:22:58.415 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Player nik (192.168.0.86:55377) left session.
+05:22:58.416 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - New host designated: niks (192.168.0.86:55371).
+05:22:58.418 - DEBUG - server.Session.69c5f017 - [ClientThread-192.168.0.86-55377] - Broadcasting SESSION_LOBBY_UPDATE to 1 players.
+05:22:58.419 - INFO - server - [ClientThread-192.168.0.86-55377] - Client nik(192.168.0.86:55377) fully cleaned up.
+05:22:58.420 - DEBUG - server - [ClientThread-192.168.0.86-55377] - Handler terminated for client 192.168.0.86:55377.
+05:22:58.824 - DEBUG - server - [ClientThread-192.168.0.86-55371] - <niks> CMD_RECV: UPDATE_RTT (RTT/Ping data not shown for brevity)
+05:22:58.824 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Updated RTT for niks (192.168.0.86:55371): 439.206600189209ms
+05:22:59.515 - INFO - server - [ClientThread-192.168.0.86-55371] - Client 192.168.0.86:55371 disconnected (empty data).
+05:22:59.516 - INFO - server - [ClientThread-192.168.0.86-55371] - Cleaning up client 192.168.0.86:55371...
+05:22:59.517 - INFO - server - [ClientThread-192.168.0.86-55371] - Removing niks(192.168.0.86:55371) from session 69c5f017-ae1f-4bca-8639-52d907cdf9f9
+05:22:59.518 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Player niks (192.168.0.86:55371) left session.
+05:22:59.518 - INFO - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - Session became hostless and empty after host left.
+05:22:59.518 - DEBUG - server.Session.69c5f017 - [ClientThread-192.168.0.86-55371] - No players to broadcast SESSION_LOBBY_UPDATE.
+05:22:59.518 - INFO - server - [ClientThread-192.168.0.86-55371] - Game session 69c5f017-ae1f-4bca-8639-52d907cdf9f9 was empty and has been removed.
+05:22:59.519 - INFO - server - [ClientThread-192.168.0.86-55371] - Client niks(192.168.0.86:55371) fully cleaned up.
+05:22:59.519 - DEBUG - server - [ClientThread-192.168.0.86-55371] - Handler terminated for client 192.168.0.86:55371.

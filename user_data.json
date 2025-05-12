@@ -1,0 +1,14 @@
+{
+    "nikeel": {
+        "salt": "6fa306aaae97493eb56e7ebdf22d9473",
+        "password_hash": "8d7b635fdaaeffff17f8a9875806598de381960646d14e7e646e646cbaa92c57"
+    },
+    "nik": {
+        "salt": "0f42a442cf9e49faa174f8355443293f",
+        "password_hash": "27c6608d46dbaa336d83f09389a261000faefca28a2b1d7135906a97f44e105c"
+    },
+    "niks": {
+        "salt": "90e64a7b8ca54336b18c968acfb85966",
+        "password_hash": "a58fc393a0bf76b50644762d89aaab299d6f9cb47a847522ef49726573ba81b3"
+    }
+}
