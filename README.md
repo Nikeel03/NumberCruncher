@@ -4,7 +4,7 @@ Number Cruncher is a command-line based client-server multiplayer math quiz game
 
 ## Prerequisites
 
-*   **Python 3.x** (developed with 3.7+, should work on most recent versions).
+*   **Python 3.x** (developed with 3.11, should work on most recent versions).
 *   No external Python libraries are required to *run* the game itself. All imports (`socket`, `json`, `threading`, etc.) are part of the Python standard library.
 *   For *development and running tests*, `pytest` is used:
     ```bash
