@@ -65,7 +65,7 @@ You can run multiple client instances to simulate multiple players. Each client 
     *   Common first steps *after connecting*:
         *   `register <username> <password>`
         *   `login <username> <password>`
-    *   Log messages will appear in the console (if `--debug` is used) and be saved to a unique `client_<name>_<pid>.log` file (in the directory where `Client.py` is run, i.e., `src/`).
+    *   Log messages will appear in the console (if `--debug` is used) and be saved to a unique `client_<name>_<pid>.log` file (in the directory where `Client.py` is run, i.e. `src/`).
 
 ### Client Commands
 
