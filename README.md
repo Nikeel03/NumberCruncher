@@ -69,18 +69,20 @@ You can run multiple client instances to simulate multiple players. Each client 
 
 ### Client Commands
 
-Once connected and logged in, you can use commands like:
+| **Command**        | **Description**                                                                 |
+|--------------------|---------------------------------------------------------------------------------|
+| `sessions`         | List available game sessions.                                                   |
+| `create`           | Create a new game session (you become the host).                                |
+| `join <session_id>`| Join an existing session (use the 8-character short ID or the full ID).         |
+| `leave`            | Leave the current game session.                                                 |
+| `startgame`        | (Host only) Start the game in the current session.                              |
+| `= <answer>`       | Submit an answer during a game round.                                           |
+| `logout`           | Log out from the server (also disconnects).                                     |
+| `disconnect`       | Disconnect from the server.                                                     |
+| `exit` or `quit`   | Close the client application.                                                   |
+| `Ctrl + C`         | Keyboard Interrupt.                                                             |
 
-*   `sessions`: List available game sessions.
-*   `create`: Create a new game session (you become the host).
-*   `join <session_id>`: Join an existing session (use the 8-character short ID or the full ID).
-*   `leave`: Leave the current game session.
-*   `startgame`: (Host only) Start the game in the current session.
-*   `= <answer>`: Submit an answer during a game round.
-*   `logout`: Log out from the server (also disconnects).
-*   `disconnect`: Disconnect from the server.
-*   `exit` or `quit`: Close the client application.
-
+  
 ## Running Tests
 
 If you have `pytest` installed and your tests are in `tests/Test.py`:
@@ -90,5 +92,4 @@ If you have `pytest` installed and your tests are in `tests/Test.py`:
     ```bash
     pytest tests/Test.py -s
     ```
-    The `-s` flag is optional but useful as it shows output (like print statements and log messages) directly to the console during the test run.
-3.  This will execute the tests defined in `Test.py`. Test-specific files like `core_tests_v4_db.json` might be created and deleted in the `tests/` directory during the test run.
+    The `-s` flag is optional, but useful as it shows output (like print statements and log messages) directly to the console during the test run.
