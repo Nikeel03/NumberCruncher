@@ -1,6 +1,6 @@
 # Number Cruncher: Online Multithreaded Math Quiz Game
 
-Number Cruncher is a command-line based client-server multiplayer math quiz game written in Python. Players connect to a server, can register/login, create or join game sessions and then compete in rounds by answering simple math-related questions as fast as possible. The game utilizes multithreading to handle multiple clients concurrently.
+Number Cruncher is a terminal based client-server multiplayer math quiz game written in Python. Players connect to a server, can register/login, create or join game sessions and then compete in rounds by answering simple math-related questions as fast as possible. The game utilises multithreading to handle multiple clients concurrently.
 
 ## Prerequisites
 
